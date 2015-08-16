@@ -1,0 +1,49 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="Proj_1_StyleSheet.css">
+		<script type="text/javascript" src="Main.js" ></script>
+	</head>		
+		
+	<body>
+		<h1>Project 1: Quiz</h1>
+		
+		<div>
+			<h2>Question 1:</h2>
+			<p>What is 5x6?</p>
+			<form ID="Q1"> 
+				<input type="radio" name="Q1_Answer" value = 24 checked>24
+				<input type="radio" name="Q1_Answer" value = 30>30
+				<input type="radio" name="Q1_Answer" value = 36>36
+				<input type="radio" name="Q1_Answer" value = 25>25
+			</form>
+			<hr />
+			<h2>Question 2:</h2>
+			<img src="images/Q2_image.jpg" alt="triangle" style="width:343px;height:215px;padding-left:50px">
+			<p>What is the value of x in cm?</p>
+			<select id="Q2">
+				<option value =""></option>
+				<option value =4>4</option>
+				<option value =5>5</option>
+				<option value =6>6</option>
+			</select>
+			<hr />
+			<h2>Question 3:</h2>
+			<p>Tick all answers that are less than the square root of 50</p>
+			<form id="Q3"> 
+				<input type="checkbox" name="Q3_Answer" value = 5>5
+				<input type="checkbox" name="Q3_Answer" value = 6>6
+				<input type="checkbox" name="Q3_Answer" value = 7>7
+				<input type="checkbox" name="Q3_Answer" value = 8>8
+			</form>
+			<hr />
+			<h2>Question 4:</h2>
+			<p>what is 7^3?</p>
+			<form id="Q4">
+				<input type="text" name="Q4_Answer" value="Enter answer here" onblur="if (this.value == '') {this.value = 'Enter answer here';}" onfocus="if (this.value=='Enter answer here') {this.value='';}" />
+			</form>
+		</div>
+		<div class="Submit">
+			<input type="button" onclick="validate()" value="Submit Answers" />
+		</div>
+	</body>
+</html>

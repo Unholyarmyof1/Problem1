@@ -1,0 +1,46 @@
+body {
+	background-color: #d0e4f3;
+}
+
+h1 {
+	color: blue;
+	text-align: center;
+	text-decoration: underline;
+}
+
+h2 {
+	color: black;
+	text-align: left;
+	margin: 15px;
+}
+
+p {
+	/* background-color: aliceblue; */
+	font-family: "TimesNew Roman";
+	font-size: 20px;
+	text-indent: 50px;
+	border: 1px solid black;
+	margin: 30px;
+}
+
+div {
+	background-color: deepskyblue;
+	border: 1px solid black;
+}
+
+div.submit {
+	background-color: palevioletred;
+	border: 1px solid black;
+	padding: 20px;
+	right: 20px;
+}
+
+form {
+	text-indent: 75px;
+}
+
+
+
+select {
+	margin-left: 75px;
+}
